@@ -8,3 +8,6 @@ chromosome_new_name_move.sh: rename contigs.fasta from output of SPAdes to inclu
 quast.sh: running quast through a list of assemblies from a text file
 
 NG_rename_copy_1.sh: rename fastq files from sequencing folder and all into new folder for assembly
+
+extractgenesfromgenbackProtein.py: extract the DNA sequence of a gene annotated by prokka from a genBank file and translate into a protein sequence
+extractgenesfromgenbackDNA.py: extract the DNA sequence of a gene annotated by prokka from a genBank file

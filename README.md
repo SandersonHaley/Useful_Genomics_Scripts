@@ -11,3 +11,6 @@ NG_rename_copy_1.sh: rename fastq files from sequencing folder and all into new 
 
 extractgenesfromgenbackProtein.py: extract the DNA sequence of a gene annotated by prokka from a genBank file and translate into a protein sequence
 extractgenesfromgenbackDNA.py: extract the DNA sequence of a gene annotated by prokka from a genBank file
+
+diamond.sh : running a blastx over all refseq sequences and all the plasmids from a set of genomes predicted by mobsuite using diamond to predict host range on Plato
+diamond_setup.sh: setting up daimond.sh to run each plasmid fasta parrelel and not one at a time on Plato

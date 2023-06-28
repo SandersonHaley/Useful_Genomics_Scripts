@@ -6,3 +6,5 @@ removeshortcontigs.py: removing contigs under 200 nucleotides for NCBI submissio
 chromosome_new_name_move.sh: rename contigs.fasta from output of SPAdes to include isolate name from a list in a text file and move to a new folder
 
 quast.sh: running quast through a list of assemblies from a text file
+
+NG_rename_copy_1.sh: rename fastq files from sequencing folder and all into new folder for assembly

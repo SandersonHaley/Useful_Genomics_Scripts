@@ -17,3 +17,5 @@ diamond.sh : running a blastx over all refseq sequences and all the plasmids fro
 diamond_setup.sh: setting up daimond.sh to run each plasmid fasta parrelel and not one at a time on Plato
 
 Neptune.sh: running Neptune to find biomarkers in three groups of genomes on Plato
+
+fasttreegamma.sh: run fasttree on a core genome alignmewnt from panaroo with the ideal parameters for bacterial tree building

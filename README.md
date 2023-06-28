@@ -14,7 +14,7 @@ extractgenesfromgenbackDNA.py: extract the DNA sequence of a gene annotated by p
 
 diamond.sh : running a blastx over all refseq sequences and all the plasmids from a set of genomes predicted by mobsuite using diamond to predict host range on Plato
 
-diamond_setup.sh: setting up daimond.sh to run each plasmid fasta parrelel and not one at a time on Plato
+diamond_setup.sh: setting up diamond.sh to run each plasmid fasta parralel and not one at a time on Plato
 
 Neptune.sh: running Neptune to find biomarkers in three groups of genomes on Plato
 
